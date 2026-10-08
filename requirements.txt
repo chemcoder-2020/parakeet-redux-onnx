@@ -1,0 +1,5 @@
+# Inference (transcribe.py)
+onnxruntime>=1.22
+numpy
+# Export (export_onnx.py) additionally needs the Photon runtime, which brings PyTorch:
+#   pip install moondream onnx onnxscript

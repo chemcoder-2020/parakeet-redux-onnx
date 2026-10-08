@@ -1,0 +1,19 @@
+{
+  "model_type": "nemo-conformer-tdt",
+  "features_size": 128,
+  "subsampling_factor": 8,
+  "max_tokens_per_step": 10,
+  "vocab_size": 8193,
+  "blank_token_id": 8192,
+  "durations": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "encoder_frame_seconds": 0.08,
+  "sample_rate": 16000,
+  "source": "moondream/parakeet-redux",
+  "ternary_weights": "MatMulNBits 4-bit, block 128"
+}

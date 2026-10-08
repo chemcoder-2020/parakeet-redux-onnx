@@ -1,0 +1,33 @@
+parakeet-redux-onnx
+===================
+
+A GitHub mirror of the Hugging Face repo:
+
+    https://huggingface.co/eschmidbauer/parakeet-redux-onnx
+
+Model lineage (all CC BY 4.0):
+
+  - nvidia/parakeet-tdt-0.6b-v3
+        Base model. Copyright NVIDIA Corporation.
+        https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+
+  - moondream/parakeet-redux
+        1.58-bit (ternary) version of the above. Copyright Moondream.
+        https://huggingface.co/moondream/parakeet-redux
+
+  - eschmidbauer/parakeet-redux-onnx
+        ONNX export of parakeet-redux for ONNX Runtime inference without
+        PyTorch (ternary weights repacked as 4-bit MatMulNBits blocks), plus
+        transcribe.py / export_onnx.py and the other support files.
+        By eschmidbauer. As stated on the upstream model card: neither
+        moondream nor NVIDIA endorse this export.
+
+This mirror (github.com/chemcoder-2020/parakeet-redux-onnx) contains
+byte-identical copies of the files from the source repo above. Checksums in
+README.md / checksums.txt were verified against the source repo after
+download. The upstream model card is preserved verbatim in SOURCE-CARD.md.
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+You must give appropriate credit to NVIDIA, Moondream, and eschmidbauer,
+provide a link to the license, and indicate if changes were made. No
+additional restrictions are imposed by this mirror.
